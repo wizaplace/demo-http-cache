@@ -1,0 +1,7 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<h1>HTTP Cache: None</h1>
+<p>Il est {{ date|date('H:i:s') }}</p>
+<a href="{{ path('app_cache_none') }}">Reload</a>
+{% endblock %}
